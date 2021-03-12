@@ -28,14 +28,11 @@ A = -4.
 momentum = 0.9
 weight_decay = 0.0001
 
-# Plot the line
-#定义两个数组
 Loss_list = []
 Accuracy_list = []
 Loss_list_2 = []
 Accuracy_list_2 = []
 
-#我这里迭代了200次，所以x的取值范围为(0，200)，然后再将每次相对应的准确率以及损失率附在x上
 x1 = range(0, EPOCHS)
 x2 = range(0, EPOCHS)
 y1 = Accuracy_list
